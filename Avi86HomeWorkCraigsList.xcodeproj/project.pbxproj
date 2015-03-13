@@ -13,6 +13,11 @@
 		5413F9601AA953350035B3F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5413F95F1AA953350035B3F0 /* Images.xcassets */; };
 		5413F9631AA953350035B3F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5413F9611AA953350035B3F0 /* Main.storyboard */; };
 		5413F96F1AA953350035B3F0 /* Avi86HomeWorkCraigsListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5413F96E1AA953350035B3F0 /* Avi86HomeWorkCraigsListTests.m */; };
+		5413F97B1AA953D00035B3F0 /* ConfigurableCoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 5413F9791AA953D00035B3F0 /* ConfigurableCoreDataStack.m */; };
+		5413F97F1AA9585C0035B3F0 /* InventoryModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5413F97D1AA9585C0035B3F0 /* InventoryModel.xcdatamodeld */; };
+		5413F9821AA95E3F0035B3F0 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 5413F9811AA95E3F0035B3F0 /* Item.m */; };
+		546261381AB2760300CEB470 /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 546261371AB2760300CEB470 /* Image.m */; };
+		546261391AB2760300CEB470 /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 546261371AB2760300CEB470 /* Image.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +43,13 @@
 		5413F9681AA953350035B3F0 /* Avi86HomeWorkCraigsListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Avi86HomeWorkCraigsListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5413F96D1AA953350035B3F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5413F96E1AA953350035B3F0 /* Avi86HomeWorkCraigsListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Avi86HomeWorkCraigsListTests.m; sourceTree = "<group>"; };
+		5413F9781AA953D00035B3F0 /* ConfigurableCoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigurableCoreDataStack.h; sourceTree = "<group>"; };
+		5413F9791AA953D00035B3F0 /* ConfigurableCoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigurableCoreDataStack.m; sourceTree = "<group>"; };
+		5413F97E1AA9585C0035B3F0 /* InventoryModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InventoryModel.xcdatamodel; sourceTree = "<group>"; };
+		5413F9801AA95E3F0035B3F0 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		5413F9811AA95E3F0035B3F0 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		546261361AB2760300CEB470 /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		546261371AB2760300CEB470 /* Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Image.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +91,13 @@
 		5413F9541AA953350035B3F0 /* Avi86HomeWorkCraigsList */ = {
 			isa = PBXGroup;
 			children = (
+				5413F9781AA953D00035B3F0 /* ConfigurableCoreDataStack.h */,
+				5413F9791AA953D00035B3F0 /* ConfigurableCoreDataStack.m */,
+				5413F97D1AA9585C0035B3F0 /* InventoryModel.xcdatamodeld */,
+				5413F9801AA95E3F0035B3F0 /* Item.h */,
+				5413F9811AA95E3F0035B3F0 /* Item.m */,
+				546261361AB2760300CEB470 /* Image.h */,
+				546261371AB2760300CEB470 /* Image.m */,
 				5413F9571AA953350035B3F0 /* AppDelegate.h */,
 				5413F9581AA953350035B3F0 /* AppDelegate.m */,
 				5413F95C1AA953350035B3F0 /* ViewController.h */,
@@ -215,9 +234,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5413F9821AA95E3F0035B3F0 /* Item.m in Sources */,
+				5413F97F1AA9585C0035B3F0 /* InventoryModel.xcdatamodeld in Sources */,
+				5413F97B1AA953D00035B3F0 /* ConfigurableCoreDataStack.m in Sources */,
 				5413F95E1AA953350035B3F0 /* ViewController.m in Sources */,
 				5413F95B1AA953350035B3F0 /* main.m in Sources */,
 				5413F9591AA953350035B3F0 /* AppDelegate.m in Sources */,
+				546261381AB2760300CEB470 /* Image.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5413F96F1AA953350035B3F0 /* Avi86HomeWorkCraigsListTests.m in Sources */,
+				546261391AB2760300CEB470 /* Image.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +428,7 @@
 				5413F9741AA953350035B3F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5413F9751AA953350035B3F0 /* Build configuration list for PBXNativeTarget "Avi86HomeWorkCraigsListTests" */ = {
 			isa = XCConfigurationList;
@@ -412,8 +437,22 @@
 				5413F9771AA953350035B3F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5413F97D1AA9585C0035B3F0 /* InventoryModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5413F97E1AA9585C0035B3F0 /* InventoryModel.xcdatamodel */,
+			);
+			currentVersion = 5413F97E1AA9585C0035B3F0 /* InventoryModel.xcdatamodel */;
+			path = InventoryModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 5413F94A1AA953350035B3F0 /* Project object */;
 }
