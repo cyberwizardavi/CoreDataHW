@@ -12,5 +12,6 @@
 
 @property (nonatomic, assign) double longitude;
 @property (nonatomic, assign) double latitude;
+@property (nonatomic, retain) NSString * contents;
 
 @end
