@@ -9,10 +9,17 @@
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
 
-
+@class Location;
 @interface Item : NSManagedObject
 
+@property (nonatomic, retain) NSString * details;
 @property (nonatomic, retain) NSString * title;
+@property (nonatomic, retain) NSString * uuid;
+@property (nonatomic, retain) NSDate * dateCreated;
+@property (nonatomic, retain) Location *location;
+@property (nonatomic, retain) NSSet *tags;
+@property (nonatomic, retain) NSSet *images;
+
 
 +(instancetype)createInMoc:(NSManagedObjectContext *)moc;
 

@@ -18,6 +18,8 @@
 		5413F9821AA95E3F0035B3F0 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 5413F9811AA95E3F0035B3F0 /* Item.m */; };
 		546261381AB2760300CEB470 /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 546261371AB2760300CEB470 /* Image.m */; };
 		546261391AB2760300CEB470 /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 546261371AB2760300CEB470 /* Image.m */; };
+		5462613C1AB55C6200CEB470 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 5462613B1AB55C6200CEB470 /* Location.m */; };
+		5462613D1AB55C6200CEB470 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 5462613B1AB55C6200CEB470 /* Location.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		5413F9811AA95E3F0035B3F0 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
 		546261361AB2760300CEB470 /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
 		546261371AB2760300CEB470 /* Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Image.m; sourceTree = "<group>"; };
+		5462613A1AB55C6200CEB470 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		5462613B1AB55C6200CEB470 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 				5413F9781AA953D00035B3F0 /* ConfigurableCoreDataStack.h */,
 				5413F9791AA953D00035B3F0 /* ConfigurableCoreDataStack.m */,
 				5413F97D1AA9585C0035B3F0 /* InventoryModel.xcdatamodeld */,
+				5462613A1AB55C6200CEB470 /* Location.h */,
+				5462613B1AB55C6200CEB470 /* Location.m */,
 				5413F9801AA95E3F0035B3F0 /* Item.h */,
 				5413F9811AA95E3F0035B3F0 /* Item.m */,
 				546261361AB2760300CEB470 /* Image.h */,
@@ -240,6 +246,7 @@
 				5413F95E1AA953350035B3F0 /* ViewController.m in Sources */,
 				5413F95B1AA953350035B3F0 /* main.m in Sources */,
 				5413F9591AA953350035B3F0 /* AppDelegate.m in Sources */,
+				5462613C1AB55C6200CEB470 /* Location.m in Sources */,
 				546261381AB2760300CEB470 /* Image.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5413F96F1AA953350035B3F0 /* Avi86HomeWorkCraigsListTests.m in Sources */,
+				5462613D1AB55C6200CEB470 /* Location.m in Sources */,
 				546261391AB2760300CEB470 /* Image.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
