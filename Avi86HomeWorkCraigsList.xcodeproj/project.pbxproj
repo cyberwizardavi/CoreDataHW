@@ -20,6 +20,8 @@
 		546261391AB2760300CEB470 /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 546261371AB2760300CEB470 /* Image.m */; };
 		5462613C1AB55C6200CEB470 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 5462613B1AB55C6200CEB470 /* Location.m */; };
 		5462613D1AB55C6200CEB470 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 5462613B1AB55C6200CEB470 /* Location.m */; };
+		546261401AB55ED700CEB470 /* Tag.m in Sources */ = {isa = PBXBuildFile; fileRef = 5462613F1AB55ED700CEB470 /* Tag.m */; };
+		546261411AB55ED700CEB470 /* Tag.m in Sources */ = {isa = PBXBuildFile; fileRef = 5462613F1AB55ED700CEB470 /* Tag.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		546261371AB2760300CEB470 /* Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Image.m; sourceTree = "<group>"; };
 		5462613A1AB55C6200CEB470 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
 		5462613B1AB55C6200CEB470 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		5462613E1AB55ED700CEB470 /* Tag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tag.h; sourceTree = "<group>"; };
+		5462613F1AB55ED700CEB470 /* Tag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tag.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				5413F9781AA953D00035B3F0 /* ConfigurableCoreDataStack.h */,
 				5413F9791AA953D00035B3F0 /* ConfigurableCoreDataStack.m */,
 				5413F97D1AA9585C0035B3F0 /* InventoryModel.xcdatamodeld */,
+				5462613E1AB55ED700CEB470 /* Tag.h */,
+				5462613F1AB55ED700CEB470 /* Tag.m */,
 				5462613A1AB55C6200CEB470 /* Location.h */,
 				5462613B1AB55C6200CEB470 /* Location.m */,
 				5413F9801AA95E3F0035B3F0 /* Item.h */,
@@ -240,6 +246,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				546261401AB55ED700CEB470 /* Tag.m in Sources */,
 				5413F9821AA95E3F0035B3F0 /* Item.m in Sources */,
 				5413F97F1AA9585C0035B3F0 /* InventoryModel.xcdatamodeld in Sources */,
 				5413F97B1AA953D00035B3F0 /* ConfigurableCoreDataStack.m in Sources */,
@@ -255,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				546261411AB55ED700CEB470 /* Tag.m in Sources */,
 				5413F96F1AA953350035B3F0 /* Avi86HomeWorkCraigsListTests.m in Sources */,
 				5462613D1AB55C6200CEB470 /* Location.m in Sources */,
 				546261391AB2760300CEB470 /* Image.m in Sources */,

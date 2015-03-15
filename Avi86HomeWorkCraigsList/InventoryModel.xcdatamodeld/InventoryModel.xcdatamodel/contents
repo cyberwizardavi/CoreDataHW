@@ -16,12 +16,13 @@
         <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
     </entity>
     <entity name="Tag" syncable="YES">
-        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="items" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
         <element name="Item" positionX="16" positionY="-225" width="128" height="118"/>
         <element name="Location" positionX="-126" positionY="47" width="128" height="88"/>
-        <element name="Tag" positionX="-261" positionY="-54" width="128" height="58"/>
+        <element name="Tag" positionX="-261" positionY="-54" width="128" height="73"/>
         <element name="Image" positionX="169" positionY="95" width="128" height="58"/>
     </elements>
 </model>
