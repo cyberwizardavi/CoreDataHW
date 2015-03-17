@@ -14,6 +14,7 @@
 
 @property (nonatomic, retain) NSString * details;
 @property (nonatomic, retain) NSString * title;
+@property (nonatomic, assign) double price;
 @property (nonatomic, retain) NSString * uuid;
 @property (nonatomic, retain) NSDate * dateCreated;
 @property (nonatomic, retain) Location *location;

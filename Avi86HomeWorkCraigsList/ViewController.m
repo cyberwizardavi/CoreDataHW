@@ -36,7 +36,7 @@
     
 //    item.title = @"YaHoo";
 //    // item.title = nil;
-//    
+//
 //    NSError *saveError = Nil;
 //    
 //    BOOL succes =  [moc save:&saveError];
@@ -61,6 +61,16 @@
 //    [moc save:nil];
     
     NSLog(@"%@", allItems);
+}
+- (IBAction)AddButtonClicked:(id)sender {
+    
+    
+    NSStoryboard *sb = [NSStoryboard storyboardWithName:@"Main" bundle:nil];
+    NSViewController *vc = [sb instantiateControllerWithIdentifier:@"PopupviewVC"];
+    
+    NSButton *btn = sender;
+    
+    [self presentViewController:vc asPopoverRelativeToRect:btn.bounds ofView:btn preferredEdge:NSMinYEdge behavior:NSPopoverBehaviorTransient];
 }
 
 - (void)setRepresentedObject:(id)representedObject {

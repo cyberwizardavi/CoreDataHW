@@ -22,6 +22,8 @@
 		5462613D1AB55C6200CEB470 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 5462613B1AB55C6200CEB470 /* Location.m */; };
 		546261401AB55ED700CEB470 /* Tag.m in Sources */ = {isa = PBXBuildFile; fileRef = 5462613F1AB55ED700CEB470 /* Tag.m */; };
 		546261411AB55ED700CEB470 /* Tag.m in Sources */ = {isa = PBXBuildFile; fileRef = 5462613F1AB55ED700CEB470 /* Tag.m */; };
+		546261451AB7B80E00CEB470 /* PopUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 546261441AB7B80E00CEB470 /* PopUpView.m */; };
+		546261461AB7B80E00CEB470 /* PopUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 546261441AB7B80E00CEB470 /* PopUpView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		5462613B1AB55C6200CEB470 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
 		5462613E1AB55ED700CEB470 /* Tag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tag.h; sourceTree = "<group>"; };
 		5462613F1AB55ED700CEB470 /* Tag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tag.m; sourceTree = "<group>"; };
+		546261431AB7B80E00CEB470 /* PopUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopUpView.h; sourceTree = "<group>"; };
+		546261441AB7B80E00CEB470 /* PopUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopUpView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				5413F95D1AA953350035B3F0 /* ViewController.m */,
 				5413F95F1AA953350035B3F0 /* Images.xcassets */,
 				5413F9611AA953350035B3F0 /* Main.storyboard */,
+				546261431AB7B80E00CEB470 /* PopUpView.h */,
+				546261441AB7B80E00CEB470 /* PopUpView.m */,
 				5413F9551AA953350035B3F0 /* Supporting Files */,
 			);
 			path = Avi86HomeWorkCraigsList;
@@ -257,6 +263,7 @@
 				546261401AB55ED700CEB470 /* Tag.m in Sources */,
 				5413F9821AA95E3F0035B3F0 /* Item.m in Sources */,
 				5413F97F1AA9585C0035B3F0 /* InventoryModel.xcdatamodeld in Sources */,
+				546261451AB7B80E00CEB470 /* PopUpView.m in Sources */,
 				5413F97B1AA953D00035B3F0 /* ConfigurableCoreDataStack.m in Sources */,
 				5413F95E1AA953350035B3F0 /* ViewController.m in Sources */,
 				5413F95B1AA953350035B3F0 /* main.m in Sources */,
@@ -273,6 +280,7 @@
 				546261411AB55ED700CEB470 /* Tag.m in Sources */,
 				5413F96F1AA953350035B3F0 /* Avi86HomeWorkCraigsListTests.m in Sources */,
 				5462613D1AB55C6200CEB470 /* Location.m in Sources */,
+				546261461AB7B80E00CEB470 /* PopUpView.m in Sources */,
 				546261391AB2760300CEB470 /* Image.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
