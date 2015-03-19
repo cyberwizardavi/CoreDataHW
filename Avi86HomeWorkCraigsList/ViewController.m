@@ -39,15 +39,6 @@
 //
 //    NSError *saveError = Nil;
 //    
-//    BOOL succes =  [moc save:&saveError];
-//    if(!succes){
-//        
-//        [[NSApplication sharedApplication ] presentError:saveError];
-//    }
-//    
-//    
-//    NSLog(@"%@",item);
-    
     
     NSFetchRequest *fr = [NSFetchRequest fetchRequestWithEntityName:@"Item"];
     NSError *fetchError = Nil;
@@ -66,6 +57,22 @@
 -(void)addRecords: (Item *)item{
     
     NSLog(@"%@", item.title);
+    
+//    NSManagedObjectContext *moc = stack.managedObjectContext;
+//    item = [Item createInMoc:moc];
+    
+    //    BOOL succes =  [moc save:&saveError];
+    //    if(!succes){
+    //
+    //        [[NSApplication sharedApplication ] presentError:saveError];
+    //    }
+    //
+    //
+    //    NSLog(@"%@",item);
+    
+
+    
+    
 }
 
 - (IBAction)AddButtonClicked:(id)sender {
