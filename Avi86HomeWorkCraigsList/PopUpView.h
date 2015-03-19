@@ -7,6 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "ViewController.h"
 
 @interface PopUpView : NSViewController
 @property (weak) IBOutlet NSButton *addButton;

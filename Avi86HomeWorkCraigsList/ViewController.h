@@ -7,10 +7,12 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "Item.h"
 
 @interface ViewController : NSViewController
 
 @property (weak) IBOutlet NSScrollView *itemTable;
+-(void)addRecords: (Item *)item;
 
 @end
 

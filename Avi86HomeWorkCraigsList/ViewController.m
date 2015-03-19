@@ -34,7 +34,7 @@
    Item *item = [Item createInMoc:moc];
     
     
-//    item.title = @"YaHoo";
+   // item.title = @"YaHoo";
 //    // item.title = nil;
 //
 //    NSError *saveError = Nil;
@@ -62,6 +62,12 @@
     
     NSLog(@"%@", allItems);
 }
+
+-(void)addRecords: (Item *)item{
+    
+    NSLog(@"%@", item.title);
+}
+
 - (IBAction)AddButtonClicked:(id)sender {
     
     

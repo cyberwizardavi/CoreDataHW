@@ -19,6 +19,17 @@
     // Do view setup here.
 }
 - (IBAction)addClicked:(id)sender {
+    
+    Item *item = [[Item alloc] init];
+    
+    item.title = self.itemName.stringValue;
+    item.details = self.itemDescription.stringValue;
+    
+    ViewController *vc = [[ViewController alloc] init];
+    
+    [vc addRecords:item];
+    
+    
 }
 - (IBAction)cancelClicked:(id)sender {
     
